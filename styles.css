@@ -3,11 +3,62 @@
 	margin: 0;
 }
 body {
-	background: #00d2ff; /* #3a7bd5 */
+	background: #00d2ff;
 	background-size: 100% 100%;
-background: -webkit-radial-gradient(circle, #00d2ff, #3a7bd5); /* Safari 5.1 to 6.0 */
-background: -o-radial-gradient(circle, #00d2ff, #3a7bd5); /* For Opera 11.6 to 12.0 */
-background: -moz-radial-gradient(circle, #00d2ff, #3a7bd5); /* For Firefox 3.6 to 15 */
-background: radial-gradient(circle, #00d2ff, #3a7bd5); /* Standard syntax */
-height: 100vh;
+	background: -webkit-radial-gradient(circle, #00d2ff, #3a7bd5);
+	background: -o-radial-gradient(circle, #00d2ff, #3a7bd5);
+	background: -moz-radial-gradient(circle, #00d2ff, #3a7bd5);
+	background: radial-gradient(circle, #00d2ff, #3a7bd5);
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+	height: 100vh;
+	text-align: center;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+main {
+	margin: 0 auto;
+	width: 500px;
+}
+header span {
+	color: #FFF;
+	display: block;
+	font-size: 3em;
+	margin: 50px 0 20px 0;
+}
+header span small {
+	font-size: 0.6em;
+}
+header img {
+	width: 75%;
+	text-align: center;
+}
+article {
+	background: #FFF;
+	border-radius: 10px;
+	box-shadow: 0 0 5px #2E323C;
+	color: #2E323C;
+	margin-top: -80px;
+	padding-top: 90px;
+}
+h1 {
+	font-size: 2.2em;
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+.hp {
+	margin: 0 auto;
+	width: 50%;
+}
+.hp hr {
+	background:  ;
+	height: 4px;
+}
+article span {
+	display: block;
+}
+article .icon {
+	height: 24px;
 }
