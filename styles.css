@@ -19,8 +19,8 @@ img {
 	height: auto;
 }
 main {
-	margin: 0 auto;
-	width: 500px;
+	margin: 0 auto 50px auto;
+	width: 520px;
 }
 header span {
 	color: #FFF;
@@ -41,24 +41,57 @@ article {
 	box-shadow: 0 0 5px #2E323C;
 	color: #2E323C;
 	margin-top: -80px;
-	padding-top: 90px;
+	padding: 90px 20px 30px 20px;
 }
 h1 {
 	font-size: 2.2em;
 	line-height: 1.5;
-	margin-bottom: 10px;
 }
 .hp {
-	margin: 0 auto;
+	font-size: 0.8em;
+	line-height: 1.5;
+	margin: 15px auto 30px auto;
 	width: 50%;
 }
 .hp hr {
-	background:  ;
-	height: 4px;
+	background: #32FA5A;
+	border: none;
+	border-radius: 3px;
+	height: 6px;
+	margin-bottom: 5px;
 }
 article span {
 	display: block;
 }
-article .icon {
-	height: 24px;
+article>section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 20px 0;
+}
+article>section.movset {
+	flex-direction: column; 
+}
+.item {
+	flex-grow: 1;
+	flex-basis: content;
+	font-size: 1.2em;
+	font-weight: bold;
+	line-height: 1.5;
+}
+.item .info {
+	color: #666;
+	font-size: 0.6em;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+.poke-info {
+	border-bottom: 1px #CCC solid;
+}
+.poke-info .middle {
+	border-right: 1px #CCC solid;
+	border-left: 1px #CCC solid;
+}
+.icon {
+	height: 20px;
 }
