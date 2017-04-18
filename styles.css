@@ -20,7 +20,7 @@ img {
 }
 main {
 	margin: 0 auto 50px auto;
-	width: 520px;
+	width: 480px;
 }
 header span {
 	color: #FFF;
@@ -50,7 +50,7 @@ h1 {
 .hp {
 	font-size: 0.8em;
 	line-height: 1.5;
-	margin: 15px auto 30px auto;
+	margin: 15px auto;
 	width: 50%;
 }
 .hp hr {
@@ -67,7 +67,7 @@ article>section {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	padding: 20px 0;
+	padding: 30px 0;
 }
 article>section.movset {
 	flex-direction: column; 
@@ -94,4 +94,43 @@ article>section.movset {
 }
 .icon {
 	height: 20px;
+}
+.powerup {
+	background: #CCFFCC;
+	border-radius: 25px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	padding: 0;
+}
+.powerup .item {
+	padding: 10px;
+}
+.powerup .pwp {
+	background: #33CC33;
+	background-size: 100% 100%;
+	background: -webkit-linear-gradient(left, #33CC33, #00CC66);
+	background: -o-linear-gradient(right, #33CC33, #00CC66);
+	background: -moz-linear-gradient(right, #33CC33, #00CC66);
+	background: linear-gradient(to right, #33CC33, #00CC66);
+	border: none;
+	border-radius: 25px;
+	color: #FFF;
+	cursor: pointer;
+	height: 50px;
+	text-transform: uppercase;
+}
+.movset {
+	border-top: 1px #CCC solid;
+	border-bottom: 1px #CCC solid;
+	margin-top: 30px;
+	padding: 10px 0;
+}
+.movset div {
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 10px 0;
+	text-align: left;
+}
+.movset div .damage {
+	float: right;
 }
